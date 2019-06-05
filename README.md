@@ -25,7 +25,7 @@ open index.html
 ## Sprint Summaries
 1. Added input functionality for 5 questions
 
-2. Added 2 additional questions for a total of 7 questions now. The 6th is a random number guessing question, and the 7th question involves the use of an array. Additionally, a tally of correct answers is kept.
+2. Two additional questions have been added. The 6th is a random number guessing question, and the 7th question involves the use of an array. A tally of correct answers is kept.  The site displys unordered and ordered lists
 
 ---
 ## Acknowledgements
