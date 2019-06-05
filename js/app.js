@@ -2,11 +2,14 @@
 
 var correct = 'Correct!!!';
 var notCorrect = 'NO!!!';
+var tally = 0;
 
 //Q1
 var hasDoctorate = prompt('Do I have a doctorate in Art History?').toLowerCase();
 if(hasDoctorate === 'yes' || hasDoctorate === 'y'){
   alert(correct);
+  tally++;
+  console.log(tally + ' correct so far.');
 }
 if(hasDoctorate === 'no' || hasDoctorate === 'n'){
   alert(notCorrect);
@@ -16,10 +19,12 @@ console.log('Q1 asks if Zoidberg has an art history doctorate and the User said 
 //Q2
 var hasKids = prompt('Do I have kids?').toLowerCase();
 if(hasKids === 'yes' || hasKids === 'y'){
-  alert(correct);
+  alert(notCorrect);
 }
 if(hasKids === 'no' || hasKids === 'n'){
-  alert(notCorrect);
+  alert(correct);
+  tally++;
+  console.log(tally + ' correct so far.');
 }
 console.log('Q2 asks if Zoidberg has kids and the User said ' + hasKids);
 
@@ -27,6 +32,8 @@ console.log('Q2 asks if Zoidberg has kids and the User said ' + hasKids);
 var hasHair = prompt('Do I have hair').toLowerCase();
 if(hasHair === 'no' || hasHair === 'n'){
   alert(correct);
+  tally++;
+  console.log(tally + ' correct so far.');
 }
 if(hasHair === 'yes' || hasHair === 'y'){
   alert(notCorrect);
@@ -40,6 +47,8 @@ if(livesInSeattle === 'yes' || livesInSeattle === 'y'){
 }
 if(livesInSeattle === 'no' || livesInSeattle === 'n'){
   alert(correct);
+  tally++;
+  console.log(tally + ' correct so far.');
 }
 console.log('Q4 asks if Zoidberg lives in Seattle and the User said ' + livesInSeattle);
 
@@ -50,6 +59,8 @@ if(deliveryCompany === 'no' || deliveryCompany === 'n'){
 }
 if(deliveryCompany === 'yes' || deliveryCompany === 'y'){
   alert(correct);
+  tally++;
+  console.log(tally + ' correct so far.');
 }
 console.log('Q5 asks if Zoidberg works for Planet Express and the User said ' + deliveryCompany);
 
@@ -62,6 +73,8 @@ for(var i = 4; i > 0; i--){
   console.log('user guessed ' + userGuessNumber);
   if(userGuessNumber === randomNum){
     alert(correct);
+    tally++;
+    console.log(tally + ' correct so far.');
     break;
   } else if(i - 1 === 0){
     alert('Oh, ZERO guesses left.  The random number was ' + randomNum);
@@ -82,8 +95,12 @@ for(var j = 6 ; j > 0; j--){
   var userGuess = prompt('Name a stage in the Decapodian life cycle. Your choices are: ' + lifeCycleChoices);
   if(lifeCycle.includes(userGuess)){
     alert(correct);
+    tally++;
+    console.log(tally + ' correct so far.');
     break;
   } else {
     alert(notCorrect + ' ' + (j - 1) + ' guesses left.');
   }
 }
+
+alert(tally + ' out of ' + '7.  Not bad, friend!');
