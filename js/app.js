@@ -48,4 +48,4 @@ if(deliveryCompany === 'no' || deliveryCompany === 'n'){
 if(deliveryCompany === 'yes' || deliveryCompany === 'y'){
   alert('Zoidberg loves Planet Express!');
 }
-console.log('Q5 asks if Zoidberg works for Planet Express and the User said ' + destroyMe);
+console.log('Q5 asks if Zoidberg works for Planet Express and the User said ' + deliveryCompany);
