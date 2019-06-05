@@ -11,7 +11,7 @@ This web application is a practical implementation of pure, unadulterated JavaSc
 
 ---
 ## Build
-Run the following commands in your terminal.  Choose a place to save the directory, Finally, run the application locally by opening it in your favorite browser.
+Run the following commands in your terminal.  Choose a place to save the directory.  Finally, run the application locally by opening it in your favorite browser.
 
 ```
 git clone https://github.com/bomibear/AboutZoidberg.git
@@ -25,7 +25,8 @@ open index.html
 ## Sprint Summaries
 1. Added input functionality for 5 questions
 
-2. Added 2 additional questions. The 6th is a randon number guessing question, and the 7th question involves the use of an array. Additionally, a tally of correct answers is being kept.
+2. Added 2 additional questions for a total of 7 questions now. The 6th is a random number guessing question, and the 7th question involves the use of an array. Additionally, a tally of correct answers is kept.
+
 ---
 ## Acknowledgements
 Shake animation was from [here](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_shake).
