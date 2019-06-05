@@ -18,8 +18,16 @@ ul{
   list-style: none;
 }
 
-section {
+#wrapper {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
+#list {
   background-color: #85C5AF;
+  padding: 20px;
   border-radius: 10px;
   border: 5px solid black;
   text-align: center;
