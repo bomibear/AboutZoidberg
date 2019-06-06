@@ -30,3 +30,6 @@ open index.html
 ---
 ## Acknowledgements
 Shake animation was from [here](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_shake).
+
+## Driver and Navigator
+June 6, 2019 - [BomiBear](https://github.com/bomibear) was the navigator, and [Matt Stuhring](https://github.com/mattstuhring) was the driver.
