@@ -5,7 +5,7 @@ var notCorrect = 'NO!!!';
 var tally = 0;
 
 //Q1
-var hasDoctorate = prompt('Do I have a doctorate in Art History?').toLowerCase();
+var hasDoctorate = prompt('Does Zoidberg a doctorate in Art History?').toLowerCase();
 if(hasDoctorate === 'yes' || hasDoctorate === 'y'){
   alert(correct);
   tally++;
@@ -17,7 +17,7 @@ if(hasDoctorate === 'no' || hasDoctorate === 'n'){
 console.log('Q1 asks if Zoidberg has an art history doctorate and the User said ' + hasDoctorate);
 
 //Q2
-var hasKids = prompt('Do I have kids?').toLowerCase();
+var hasKids = prompt('Does Zoidberg have kids?').toLowerCase();
 if(hasKids === 'yes' || hasKids === 'y'){
   alert(notCorrect);
 }
@@ -29,7 +29,7 @@ if(hasKids === 'no' || hasKids === 'n'){
 console.log('Q2 asks if Zoidberg has kids and the User said ' + hasKids);
 
 //Q3
-var hasHair = prompt('Do I have hair').toLowerCase();
+var hasHair = prompt('Does Zoidberg have hair?').toLowerCase();
 if(hasHair === 'no' || hasHair === 'n'){
   alert(correct);
   tally++;
@@ -41,7 +41,7 @@ if(hasHair === 'yes' || hasHair === 'y'){
 console.log('Q3 asks if Zoidberg hair and the User said ' + hasHair);
 
 //Q4
-var livesInSeattle = prompt('Do I live in Seattle?').toLowerCase();
+var livesInSeattle = prompt('Does Zoidberg live in Seattle?').toLowerCase();
 if(livesInSeattle === 'yes' || livesInSeattle === 'y'){
   alert(notCorrect);
 }
@@ -53,7 +53,7 @@ if(livesInSeattle === 'no' || livesInSeattle === 'n'){
 console.log('Q4 asks if Zoidberg lives in Seattle and the User said ' + livesInSeattle);
 
 //Q5
-var deliveryCompany = prompt('Do I work for a delivery company?').toLowerCase();
+var deliveryCompany = prompt('Does Zoidberg work for a delivery company?').toLowerCase();
 if(deliveryCompany === 'no' || deliveryCompany === 'n'){
   alert(notCorrect);
 }
@@ -69,7 +69,7 @@ console.log('Q5 asks if Zoidberg works for Planet Express and the User said ' + 
 var randomNum = Math.floor(Math.random() * 10);
 console.log('random number is ' + randomNum);
 for(var i = 4; i > 0; i--){
-  var userGuessNumber = parseInt(prompt('Guess a number between 0 and 10'));
+  var userGuessNumber = parseInt(prompt('Friend, guess a number between 0 and 10'));
   console.log('user guessed ' + userGuessNumber);
   if(userGuessNumber === randomNum){
     alert(correct);
@@ -92,7 +92,7 @@ var lifeCycle = ['coral', 'hydra', 'starfish', 'urchin', 'anglerfish', 'lamprey'
 var lifeCycleChoices = ['orca', 'coral', 'catfish', 'hydra', 'shark', 'starfish', 'trash', 'urchin', 'anglerfish', 'Edna', 'lamprey', 'clam', 'pearl', 'trilobyte', 'cuttlefish', 'humanoid', 'mating', 'algae'];
 console.log('The stages are: ' + lifeCycle);
 for(var j = 6 ; j > 0; j--){
-  var userGuess = prompt('Name a stage in the Decapodian life cycle. Your choices are: ' + lifeCycleChoices);
+  var userGuess = prompt('Friend, name a stage in the Decapodian life cycle. Your choices are: ' + lifeCycleChoices);
   if(lifeCycle.includes(userGuess)){
     alert(correct);
     tally++;
