@@ -116,7 +116,7 @@ var q7 = function() {
   var lifeCycleChoices = ['orca', 'coral', 'catfish', 'hydra', 'shark', 'starfish', 'trash', 'urchin', 'anglerfish', 'Edna', 'lamprey', 'clam', 'pearl', 'trilobyte', 'cuttlefish', 'humanoid', 'mating', 'algae'];
   console.log('The stages are: ' + lifeCycle);
   for(var j = 6 ; j > 0; j--){
-    var userGuess = prompt('Friend, name a stage in the Decapodian life cycle. Your choices are: ' + lifeCycleChoices);
+    var userGuess = prompt('Friend, name a stage in the Decapodian life cycle. Your choices are: ' + lifeCycleChoices.join(' '));
     if(lifeCycle.includes(userGuess)){
       alert(correct);
       tally++;
